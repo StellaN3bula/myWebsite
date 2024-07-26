@@ -1,0 +1,105 @@
+/* Für Handys bis 600px */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 3em; /* Kleinere Schriftgröße für Handys */
+    }
+
+    .content {
+        width: 90%; /* Mehr Platz auf dem Bildschirm nutzen */
+        padding: 1em; /* Weniger Padding */
+    }
+
+    .lesebox {
+        padding: 1em; /* Weniger Padding */
+    }
+
+    .container {
+        flex-direction: column; /* Stapeln von Elementen untereinander */
+    }
+
+    aside {
+        width: 100%; /* Aside-Element auf volle Breite setzen */
+        margin-bottom: 1em; /* Abstand nach unten */
+    }
+
+    .btn {
+        font-size: 0.9em; /* Kleinere Schriftgröße für Buttons */
+        padding: 0.6em 1em; /* Weniger Padding */
+    }
+
+    .box1, .box2, .box3, .box4, .box5 {
+        width: 100%; /* Boxen auf volle Breite setzen */
+        margin-bottom: 1em; /* Weniger Abstand zwischen den Boxen */
+    }
+
+    .logo_bg {
+        width: 100%; /* Logo-Bereich auf volle Breite setzen */
+        margin: 1em 0; /* Weniger Margin */
+    }
+
+    .flip-card {
+        width: 15em; /* Kleinere Flip-Karten */
+        height: 20em;
+    }
+
+    .sizeCard, .size {
+        width: 100%; /* Karten auf volle Breite setzen */
+        height: auto; /* Höhe automatisch anpassen */
+    }
+
+    footer {
+        font-size: 0.8em; /* Kleinere Schriftgröße im Footer */
+    }
+}
+
+/* Für Tablets bis 1024px */
+@media (max-width: 1024px) {
+    header h1 {
+        font-size: 4em; /* Mittelgroße Schriftgröße für Tablets */
+    }
+
+    .content {
+        width: 80%; /* Etwas breiter als bei Handys */
+    }
+
+    .lesebox {
+        padding: 1.5em; /* Etwas mehr Padding */
+    }
+
+    .container {
+        flex-direction: row; /* Zeilenanordnung für Tablets */
+    }
+
+    aside {
+        width: 40%; /* Nebenbereich auf 40% Breite setzen */
+    }
+
+    .btn {
+        font-size: 1em; /* Normale Schriftgröße für Buttons */
+        padding: 0.8em 1.2em; /* Etwas mehr Padding */
+    }
+
+    .box1, .box2, .box3, .box4, .box5 {
+        width: 45%; /* Boxen nebeneinander auf Tablets */
+        margin-bottom: 2em; /* Mehr Abstand zwischen den Boxen */
+    }
+
+    .logo_bg {
+        width: 80%; /* Logo-Bereich auf 80% Breite setzen */
+        margin: 2em auto; /* Automatischer Abstand links und rechts */
+    }
+
+    .flip-card {
+        width: 18em; /* Größere Flip-Karten als auf Handys */
+        height: 25em;
+    }
+
+    .sizeCard, .size {
+        width: 90%; /* Karten auf 90% Breite setzen */
+        height: auto; /* Höhe automatisch anpassen */
+    }
+
+    footer {
+        font-size: 0.9em; /* Etwas größere Schriftgröße im Footer */
+    }
+}
