@@ -33,6 +33,8 @@ Alle Rechte vorbehalten. Der Code dieser Webseite darf nicht ohne ausdrückliche
 Siehe die ([LICENSE](https://github.com/StellaN3bula/myWebsite/blob/main/LICENSE.txt)) Datei für weitere Details.
 
 **Hinweis**: Diese Webseite ist öffentlich zugänglich, aber der Code und Inhalt dürfen nicht ohne Erlaubnis verwendet oder geändert werden.
+
+
 english:
 All rights reserved. The code of this website may not be used, modified, or distributed without the express permission of the author. See the ([LICENSE](https://github.com/StellaN3bula/myWebsite/blob/main/LICENSE.txt) file for more details.
 
