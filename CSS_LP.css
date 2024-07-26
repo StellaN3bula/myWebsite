@@ -42,7 +42,7 @@ body {
 
 
 header {
-    background: url('Galaxy_4_HingergrungBild.jpg') no-repeat center center/cover;
+    background: url(Galaxy_4_HingergrungBild.jpg) no-repeat center center/cover;
     background
     height: 20em;
     display: flex;
