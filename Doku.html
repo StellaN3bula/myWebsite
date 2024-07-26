@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokumentationen</title>
+
+    <link rel="stylesheet" href="CSS_LP.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    .bilder {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* align-items: center; */
+        justify-content: space-between;
+
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    img{
+        border: 0.3em solid #0B3D91;
+        ;
+    }
+    
+</style>
+
+<body>
+
+    <header>
+        <h1>Dokumentationen</h1>
+    </header>
+    <nav>
+        <a href="Startseite.html">zurück zur Startseite</a>
+        <a href="#doku_1">zu Übung 1</a>
+        <!-- <a href="#doku_2">zu Übung 2</a> -->
+
+    </nav>
+
+    <div class="container">
+        <div class="content">
+            <section id="doku_1">
+                <div class="lesebox">
+                    <h2>Übung 1: Einfache To-Do-Liste</h2>
+                    <pre style="font-family: 'Merriweather', serif; line-height: 1.6;">
+                        <u>#Einführung:</u>
+
+                        Projektname: 
+                        Einfache To-Do-Liste
+
+                        Kurzbeschreibung: 
+                        Bei den Checkboxen kann man abhacken was man schon erledigt hat. 
+                        Unten im grünen Feld werden die erledigten Aufgaben angezeigt. Wenn man eine Checkbox wieder 
+                        entfernt dann wird die Zahl im grünen Feld auch wieder weniger.
+
+                        Zweck:
+                        Der Zweck dieses Projekts ist das ich JavaScript, HTML und CSS üben kann.
+
+                        <u>#Technoligien:</u>
+                        •	VS-Code
+                        •	HTML
+                        •	CSS
+                        •	JavaScript
+
+                        <u>#Installation und Setup:</u>
+                        Sollte auf jedem Browser funktionieren (kann es leider nicht testen da ich es bei mir nicht umstellen kann – hab das Problem noch nicht gelöst)
+
+                        <u>#Verwendung:</u>
+                        Klicke in die Checkbox vor dem erledigten Bereich – Checkbox bekommt ein blaues Häkchen und wird automatisch 
+                        zu „Aufgaben Erledigt“ hinzugefügt. Wenn man das Häkchen wieder entfernt wird es auch bei den „Aufgaben Erledigt“ entfernt.
+
+                        <u>#Features:</u>
+                        Wird automatisch zu „Aufgaben Erledigt“ hinzugefügt
+
+                        <u>#Bekannte Probleme:</u>
+                        Beim „Seite neu laden“ setzt sich nur die „Aufgaben Erledigt“ zurück nicht aber die blauen Häkchen, 
+                        wenn man diese entfernt dann wir bei den „Aufgaben Erledigt“ eine minus Zahl angezeigt. (Bild 4 und Bild 5) Umgehen kann man 
+                        das Problem indem man die Seite schließt und wieder neu öffnet.
+
+                        <u>#Zukünftige Verbesserungen</u>:
+                        •	Hinzufügen von Benutzereingaben
+                        •	Beheben des vorhandenen Problems mit dem „Seite neu Laden“ und der Minus Zahl
+
+                        <u>#Credits:</u>
+                        •	Übung im Unterricht –Hauptstädte Quiz war die Vorlage. 
+                        •	Reden mit einem Kumpel der mich darauf hinwies das ich es auch kürzer schreiben kann
+
+                    </pre>
+                </div>
+            </section>
+
+
+        </div>
+        <aside class="logo_bg">
+            <img src="/BeWeSeite/bilder/Doku_ToDo/ToDo_1.png" width="800em" alt="Galaxy">
+        </aside>
+    </div>
+
+    <div class="bilder">
+        <div class="bild1">
+            <img src="/BeWeSeite/bilder/Doku_ToDo/ToDo_1.png" alt="doku_1" width="400em" height="500em">
+            <pre>Bild 1: nach dem Öffnen</pre>
+        </div>
+        <div class="bild1">
+            <img src="/BeWeSeite/bilder/Doku_ToDo/ToDo_2.png" alt="doku_2" width="400em" height="500em">
+            <pre>Bild 2: erledigten Aufgaben ausgewählt</pre>
+        </div>
+        <div class="bild1">
+            <img src="/BeWeSeite/bilder/Doku_ToDo/ToDo_3.png" alt="doku_3" width="400em" height="500em">
+            <pre>Bild 3: nur noch eines ausgewählt</pre>
+        </div>
+        <div class="bild1">
+            <img src="/BeWeSeite/bilder/Doku_ToDo/ToDo_4.png" alt="doku_4" width="400em" height="500em">
+            <pre>Bild 4: Seite neu geladen -> grüne Box wird auf "0" 
+                gesetzt aber die Checkbox nicht</pre>
+        </div>
+        <div class="bild1">
+            <img src="/BeWeSeite/bilder/Doku_ToDo/ToDo_5.png" alt="doku_5" width="400em" height="500em">
+            <pre>Bild 5: Chechbox wurde entfernt und grüne Box 
+                zählt rückwärts</p>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Regina Pölleritzer. Alle Rechte vorbehalten.</p>
+        <p>Kontakt: <a href="mailto:r.poelleritzer@gmx.at ">r.poelleritzer@gmx.at</a> </p>
+    </footer>
+
+</body>
+
+</html>
