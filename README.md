@@ -30,6 +30,8 @@ Diese Webseite bietet eine Übersicht über mich, meine Projekte und meine Fähi
 ## Lizenz
 
 Alle Rechte vorbehalten. Der Code dieser Webseite darf nicht ohne ausdrückliche Genehmigung des Urhebers verwendet, modifiziert oder weiterverbreitet werden.
+Siehe die [LICENSE](LICENSE) Datei für weitere Details.
+
 
 **Hinweis**: Diese Webseite ist öffentlich zugänglich, aber der Code und Inhalt dürfen nicht ohne Erlaubnis verwendet oder geändert werden.
 
