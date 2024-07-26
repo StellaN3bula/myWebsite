@@ -1,4 +1,11 @@
+german:
 Alle Rechte vorbehalten.
 
 Der Code dieser Webseite darf nicht ohne ausdrückliche Genehmigung des Urhebers verwendet, verändert oder weiterverbreitet werden. 
 Kein Teil dieses Codes darf kopiert, reproduziert, veröffentlicht oder anderweitig verbreitet werden, ohne die ausdrückliche schriftliche Genehmigung des Urhebers.
+
+english:
+All rights reserved.
+
+The code of this website may not be used, modified, or distributed without the express permission of the author.
+No part of this code may be copied, reproduced, published, or otherwise distributed without the express written permission of the author.
