@@ -21,8 +21,8 @@ Diese Webseite bietet eine Übersicht über mich, meine Projekte und meine Fähi
 - Programm: VS-Code
 
 ## Installation und Nutzung
-1. Klone das Repository: `git clone https://github.com/deinusername/deinrepository.git`
-2. Öffne die Datei `index.html` in deinem Browser, um die Webseite lokal zu testen.
+1. Klone das Repository: `git clone (https://github.com/StellaN3bula/myWebsite.git)`
+2. Öffne die Datei `startseite.html` in deinem Browser, um die Webseite lokal zu testen.
 
 ## Beitragende
 - Regina Pölleritzer https://github.com/StellaN3bula
